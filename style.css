@@ -863,7 +863,7 @@ footer .fourth .icon:hover {
 }
 
 /* RESPONSIVENESS */
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .burger {
     display: flex;
   }
