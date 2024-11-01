@@ -429,7 +429,7 @@ header nav {
   margin-bottom: 0.3rem;
 }
 #mission .right img {
-  width: 570px;
+  max-width: 570px;
 }
 
 /* VISIT OUR SHOP */
@@ -893,7 +893,7 @@ footer .fourth .icon:hover {
     flex-direction: column;
     padding: 6rem 1rem 15rem;
     gap: 3rem;
-    margin-bottom: 2rem;
+    margin-bottom: 9rem;
   }
   #our_story .left {
     text-align: center;
@@ -907,12 +907,19 @@ footer .fourth .icon:hover {
     position: relative;
   }
   #shop .left .left-sub {
-    max-width: 300px;
-    right: 0;
-    bottom: 5%;
+    max-width: 270px;
+    left: 15%;
+    bottom: -10%;
+    padding: 0.7rem 0 0.7rem 1rem;
+  }
+  #shop .left .left-sub li {
+    font-size: 0.7rem;
   }
   #shop .right.in-shop {
+    margin-top: 1.7rem;
     text-align: center;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
   }
   #mission {
     flex-direction: column-reverse;
@@ -921,9 +928,11 @@ footer .fourth .icon:hover {
   #mission .left {
     max-width: 500px;
     text-align: center;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
   }
   #visit .visit-sub {
-    width: 90%;
+    width: 100%;
   }
   #product h2 {
     text-align: center;
